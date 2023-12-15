@@ -1,0 +1,356 @@
+@media screen and (width < 1320px) {
+    /*nuvem 1*/
+
+.nuvem {
+    position: relative;
+    top: -30px;
+    left: -60px; 
+    width: 200px; 
+    height: 100px;
+}
+
+.gomo1, .gomo2, .gomo3, .gomo4 {
+    position:absolute; 
+    width: 250px; 
+    height: 110px; 
+    background: #ccccccef; 
+    border-radius: 50% 50%;
+    max-width: 96%; 
+}
+
+.gomo1{
+    top: 200px; 
+    left: 150px;
+}
+
+.gomo2{ 
+    top: 270px; 
+    left: 250px;
+}
+
+.gomo3{ 
+    top: 240px; 
+    left: 410px;
+}
+
+.gomo4{ 
+    top: 170px; 
+    left: 300px;
+}
+
+/*nuvem 2*/
+
+.nuvem2 {
+    position: relative; 
+    top: -70px; 
+    left: 40px; 
+    width: 150px; 
+    height: 100px;
+}
+
+.gomo5, .gomo6, .gomo7, .gomo8 {
+    position:absolute; 
+    width: 250px; 
+    height: 110px; 
+    background: #ccccccef; 
+    border-radius: 50% 50%; 
+}
+
+.gomo5{ 
+    top: 190px; 
+    left: 150px;
+}
+.gomo6{ 
+    top: 200px; 
+    left: 250px;
+}
+
+.gomo7{ 
+    top: 140px; 
+    left: 440px;
+}
+
+.gomo8{ 
+    top: 80px; 
+    left: 280px;
+}
+
+/*nuvem 3*/
+
+.nuvem3 {
+    position: relative; 
+    top: -50px; 
+    left: 650px; 
+    width: 150px; 
+    height: 100px;
+}
+
+.gomo9, .gomo10, .gomo11, .gomo12 {
+    position:absolute; 
+    width: 240px; 
+    height: 120px; 
+    background: #ccccccef; 
+    border-radius: 50% 50%;
+}
+
+.gomo9{ 
+    top: 85px; 
+    left: 50px;
+}
+
+.gomo10{ 
+    top: 100px; 
+    left: 125px;
+}
+
+.gomo11{ 
+    top: 40px; 
+    left: 190px;
+}
+
+
+.gomo12{ 
+    top: 30px; 
+    left: 120px;
+}
+
+/*chuva mobile*/
+
+ul:nth-child(2),ul:nth-child(3){
+    display: none;
+}
+
+ul:nth-child(1) li{
+    position: relative;
+    left: 10%;
+}
+
+ul:nth-child(1) li:nth-child(1),ul:nth-child(1) li:nth-child(2),ul:nth-child(1) li:nth-child(3),ul:nth-child(1) li:nth-child(4){
+    display: none;
+}
+
+}
+
+@media screen and (width < 1100px){
+    ul:nth-child(1),.nuvem3,.nuvem2,.nuvem{
+        display: none;
+    }
+
+    .responsive{
+        width: 100vw;
+        height: 100vh;
+        max-width: 95%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nuvem-responsive {
+        position: relative;
+        top: -30px;
+        left: -60px; 
+        width: 200px; 
+        height: 100px;
+        max-width: 96%;
+        margin: 0 20%;
+    }
+    
+    .gomo1-responsive, .gomo2-responsive, .gomo3-responsive, .gomo4-responsive {
+        position:absolute; 
+        width: 250px; 
+        height: 110px; 
+        background: #ccccccef; 
+        border-radius: 50% 50%;
+        max-width: 96%; 
+    }
+    
+    .gomo1-responsive{
+        top: 230px; 
+        left: 160px;
+    }
+    
+    .gomo2-responsive{ 
+        top: 260px; 
+        left: 260px;
+    }
+    
+    .gomo3-responsive{ 
+        top: 240px; 
+        left: 400px;
+    }
+    
+    .gomo4-responsive{ 
+        top: 180px; 
+        left: 290px;
+    }
+    
+    /*chuva responsive*/
+
+    .chuva-responsive ul{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 370px;
+        left: 250px;
+    }
+
+    .chuva-responsive ul li{
+        margin: 0 10px;
+    }
+}
+
+@media screen  and (width < 900px){
+    .nuvem-responsive {
+        margin: 0 10%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-responsive ul{
+        left: 120px;
+    }
+}
+
+@media screen  and (width < 780px){
+    .nuvem-responsive {
+        margin: 0 5%;
+    }
+
+     /*chuva responsive*/
+
+     .chuva-responsive ul{
+        left: 80px;
+    }
+}
+
+@media screen  and (width < 650px){
+    .nuvem-responsive {
+        margin: 0 0%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-responsive ul{
+        left: 50px;
+    }
+}
+
+@media screen  and (width < 600px){
+    .nuvem-responsive {
+        margin: 0 -5%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-responsive ul{
+        left: 10px;
+    }
+}
+
+@media screen  and (width < 550px){
+    .nuvem-responsive {
+        margin: 0 -15%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-responsive ul{
+        left: -20px;
+    }
+}
+
+@media screen  and (width < 490px){
+    .nuvem-responsive {
+        margin: 0 -10%;
+    }
+
+    .gomo1-responsive, .gomo2-responsive, .gomo3-responsive, .gomo4-responsive { 
+        width: 100px; 
+        height: 100px; 
+    }
+    
+    .gomo1-responsive{
+        top: 230px; 
+        left: 210px;
+    }
+    
+    .gomo2-responsive{ 
+        top: 260px; 
+        left: 260px;
+    }
+    
+    .gomo3-responsive{ 
+        top: 240px; 
+        left: 340px;
+    }
+    
+    .gomo4-responsive{ 
+        top: 180px; 
+        left: 290px;
+    }
+
+    /*chuva responsive*/
+    .chuva-responsive ul{
+        display: none;
+    }
+
+    .chuva-mobile ul{
+        display: flex;
+        flex-direction: row;
+        top: 350px;
+        left: 80px;
+    }
+
+    .chuva-mobile ul li{
+        margin: 0 5px;
+    }
+}
+
+@media screen  and (width < 400px){
+    .nuvem-responsive {
+        margin: 0 -20%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-mobile ul{
+        left: 50px;
+    }
+}
+
+
+@media screen  and (width < 350px){
+    .nuvem-responsive {
+        margin: 0 -30%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-mobile ul{
+        left: 30px;
+    }
+}
+
+@media screen  and (width < 320px){
+    .nuvem-responsive {
+        margin: 0 -40%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-mobile ul{
+        left: 10px;
+    }
+}
+
+@media screen  and (width < 300px){
+    .nuvem-responsive {
+        margin: 0 -50%;
+    }
+
+    /*chuva responsive*/
+
+    .chuva-mobile ul{
+        left: -10px;
+    }
+}
